@@ -48,8 +48,8 @@ const outputMessage = (msg) => {
   const div = document.createElement('div');
   div.classList.add('message');
   div.innerHTML = `
-    <p class="meta">${msg.username} <span>${msg.time}</span></p>
-    <p class="text">${msg.text}</p>
+    <p class='meta'>${msg.username} <span>${msg.time}</span></p>
+    <p class='text'>${msg.text}</p>
   `;
   document.querySelector('.chat-messages').appendChild(div);
 };
